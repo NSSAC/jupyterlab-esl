@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab-esl37",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "description": "ESL37 support for Jupyter Lab.",
     "keywords": [
         "jupyter",
@@ -72,8 +72,8 @@
     "devDependencies": {
         "@codemirror/buildhelper": "^1.0.0",
         "@jupyterlab/builder": "^4.0.0",
-        "@lezer/generator": "^1.0.0",
         "@lezer-unofficial/printer": "^1.0.1",
+        "@lezer/generator": "^1.0.0",
         "@types/json-schema": "^7.0.11",
         "@types/react": "^18.0.26",
         "@types/react-addons-linked-state-mixin": "^0.14.22",
