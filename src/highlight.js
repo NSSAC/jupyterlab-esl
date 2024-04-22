@@ -13,13 +13,14 @@ export const highlight = styleTags({
     String: tags.string,
     Comment: tags.lineComment,
     FieldAnnotation: tags.annotation,
+    StateTypeAnnotation: tags.annotation,
 
     TemplateBlock: tags.special(tags.lineComment),
     TemplateVar: tags.meta,
 
     "enum global config node edge": tags.definitionKeyword,
     "distribution discrete normal uniform": tags.definitionKeyword,
-    "contagion": tags.definitionKeyword,
+    "contagion transition transmission": tags.definitionKeyword,
 
     "p v mean std low high dwell": tags.keyword,
     "susceptibility infectivity transmissibility enabled": tags.keyword,
