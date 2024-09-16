@@ -1,8 +1,8 @@
 import {LRLanguage, LanguageSupport} from "@codemirror/language"
 import {parser} from "./parser"
 
-export const esl37Language = LRLanguage.define({
-    name: "esl37",
+export const eslLanguage = LRLanguage.define({
+    name: "esl",
     parser: parser.configure({
         props: []
     }),
@@ -15,9 +15,9 @@ export const esl37Language = LRLanguage.define({
     }
 })
 
-export function esl37() {
+export function esl() {
     try {
-        return new LanguageSupport(esl37Language, [])
+        return new LanguageSupport(eslLanguage, [])
     } catch (error) {
         console.error(error)
         throw error;

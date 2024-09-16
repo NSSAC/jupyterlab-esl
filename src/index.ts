@@ -7,24 +7,24 @@ import {
     IEditorLanguageRegistry
 } from '@jupyterlab/codemirror';
 
-import {esl37} from './esl37';
+import {esl} from './esl';
 
 /**
- * Initialization data for the jupyterlab-esl37 extension.
+ * Initialization data for the jupyterlab-esl extension.
  */
 const plugin: JupyterFrontEndPlugin<void> = {
-    id: 'jupyterlab-esl37:plugin',
-    description: 'ESL37 support for jupyterlab',
+    id: 'jupyterlab-esl:plugin',
+    description: 'ESL support for jupyterlab',
     autoStart: true,
     requires: [IEditorLanguageRegistry],
     activate: (app: JupyterFrontEnd, registry: IEditorLanguageRegistry) => {
-        console.log('JupyterLab extension jupyterlab-esl37 is activated!');
+        console.log('JupyterLab extension jupyterlab-esl is activated!');
 
         registry.addLanguage({
-            name: 'ESL37',
-            mime: 'text/esl37',
-            extensions: ['esl37'],
-            support: esl37()
+            name: 'ESL',
+            mime: 'text/esl',
+            extensions: ['esl'],
+            support: esl()
         });
     }
 };

@@ -1,8 +1,8 @@
-ESL37 support for Jupyter Lab
-=============================
+ESL support for Jupyter Lab
+===========================
 
-This repository provides the `jupyterlab_esl37` package,
-which adds ESL37 file type to Jupyter Lab's editor (Codemirror).
+This repository provides the `jupyterlab_esl` package,
+which adds ESL file type to Jupyter Lab's editor (Codemirror).
 
 Requirements
 ------------
@@ -16,4 +16,4 @@ To install the extension, execute:
 
 .. code::
 
-   pip install jupyterlab_esl37
+   pip install jupyterlab_esl
