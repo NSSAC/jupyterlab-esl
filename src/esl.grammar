@@ -32,7 +32,7 @@ Enum {
 }
 
 Global {
-    (kw<"global"> | kw<"config">)
+    (kw<"global"> | kw<"config"> | kw<"statistic">)
     VariableName ":" TypeName "=" expression ";"?
 }
 
@@ -328,8 +328,7 @@ ConstantName { identifier }
     ("node" @whitespace+ "key") |
     ("target" @whitespace+ "node" @whitespace+ "key") |
     ("source" @whitespace+ "node" @whitespace+ "key") |
-    "static" |
-    "save"
+    "static"
   }
 
   StateTypeAnnotation { "state" @whitespace+ "type" }

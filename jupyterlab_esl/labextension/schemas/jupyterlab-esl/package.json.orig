@@ -1,6 +1,6 @@
 {
     "name": "jupyterlab-esl",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "description": "ESL support for Jupyter Lab.",
     "keywords": [
         "jupyter",

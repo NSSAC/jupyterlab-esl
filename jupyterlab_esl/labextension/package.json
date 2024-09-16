@@ -1,6 +1,6 @@
 {
   "name": "jupyterlab-esl",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "ESL support for Jupyter Lab.",
   "keywords": [
     "jupyter",
@@ -110,7 +110,7 @@
     "outputDir": "jupyterlab_esl/labextension",
     "schemaDir": "schema",
     "_build": {
-      "load": "static/remoteEntry.55c5b8de0a2e6902a264.js",
+      "load": "static/remoteEntry.6f5bd5c4e1ecc8ff8880.js",
       "extension": "./extension",
       "style": "./style"
     }
