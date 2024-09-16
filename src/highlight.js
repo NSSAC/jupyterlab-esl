@@ -18,7 +18,7 @@ export const highlight = styleTags({
     TemplateBlock: tags.special(tags.lineComment),
     TemplateVar: tags.meta,
 
-    "enum global config node edge": tags.definitionKeyword,
+    "enum global config statistic node edge": tags.definitionKeyword,
     "distribution discrete normal uniform": tags.definitionKeyword,
     "contagion transition transmission": tags.definitionKeyword,
 

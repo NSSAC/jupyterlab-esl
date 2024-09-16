@@ -71,7 +71,7 @@ const highlight = (0,_lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.styleTags)({
     StateTypeAnnotation: _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.annotation,
     TemplateBlock: _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.special(_lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.lineComment),
     TemplateVar: _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.meta,
-    "enum global config node edge": _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.definitionKeyword,
+    "enum global config statistic node edge": _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.definitionKeyword,
     "distribution discrete normal uniform": _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.definitionKeyword,
     "contagion transition transmission": _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.definitionKeyword,
     "p v mean std low high dwell": _lezer_highlight__WEBPACK_IMPORTED_MODULE_0__.tags.keyword,
@@ -170,4 +170,4 @@ const parser = _lezer_lr__WEBPACK_IMPORTED_MODULE_0__.LRParser.deserialize({
 /***/ })
 
 }]);
-//# sourceMappingURL=lib_index_js.66e02ac435fa838e0c71.js.map
+//# sourceMappingURL=lib_index_js.3a6878a9e1687634d5fc.js.map

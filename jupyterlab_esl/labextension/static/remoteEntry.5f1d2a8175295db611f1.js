@@ -124,7 +124,7 @@ __webpack_require__.d(exports, {
 /******/ 		// This function allow to reference async chunks
 /******/ 		__webpack_require__.u = (chunkId) => {
 /******/ 			// return url for filenames based on template
-/******/ 			return "" + chunkId + "." + {"lib_index_js":"66e02ac435fa838e0c71","style_index_js":"d5c3df677012f5739328","vendors-node_modules_lezer_lr_dist_index_js":"351aff3b02c99c8c0cf4","webpack_sharing_consume_default_lezer_common":"f7f081f2de40562c0237"}[chunkId] + ".js";
+/******/ 			return "" + chunkId + "." + {"lib_index_js":"3a6878a9e1687634d5fc","style_index_js":"d5c3df677012f5739328","vendors-node_modules_lezer_lr_dist_index_js":"351aff3b02c99c8c0cf4","webpack_sharing_consume_default_lezer_common":"f7f081f2de40562c0237"}[chunkId] + ".js";
 /******/ 		};
 /******/ 	})();
 /******/ 	
@@ -244,7 +244,7 @@ __webpack_require__.d(exports, {
 /******/ 			switch(name) {
 /******/ 				case "default": {
 /******/ 					register("@lezer/lr", "1.4.0", () => (Promise.all([__webpack_require__.e("vendors-node_modules_lezer_lr_dist_index_js"), __webpack_require__.e("webpack_sharing_consume_default_lezer_common")]).then(() => (() => (__webpack_require__(/*! ./node_modules/@lezer/lr/dist/index.js */ "./node_modules/@lezer/lr/dist/index.js"))))));
-/******/ 					register("jupyterlab-esl", "0.0.4", () => (__webpack_require__.e("lib_index_js").then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
+/******/ 					register("jupyterlab-esl", "0.0.5", () => (__webpack_require__.e("lib_index_js").then(() => (() => (__webpack_require__(/*! ./lib/index.js */ "./lib/index.js"))))));
 /******/ 				}
 /******/ 				break;
 /******/ 			}
@@ -570,4 +570,4 @@ __webpack_require__.d(exports, {
 /******/ 	
 /******/ })()
 ;
-//# sourceMappingURL=remoteEntry.6f5bd5c4e1ecc8ff8880.js.map
+//# sourceMappingURL=remoteEntry.5f1d2a8175295db611f1.js.map

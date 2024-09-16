@@ -702,7 +702,7 @@
             "@codemirror/autocomplete": {},
             "@lezer/lr": {},
             "jupyterlab-esl": {
-              "version": "0.0.4",
+              "version": "0.0.5",
               "singleton": true,
               "import": "/home/parantapa/workspace/jupyterlab-esl37/lib/index.js"
             }
